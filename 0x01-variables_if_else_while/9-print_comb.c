@@ -4,7 +4,8 @@
 
 #include <time.h>
 
-/** main - Entry point
+/**
+ * main - Entry point
  *
  * Return: Always 0 (Greatness)
  *
@@ -14,6 +15,7 @@ int main(void)
 
 {
 	int g;
+
 	for (g = '0'; g <= '9'; g++)
 	{
 	putchar(g);
