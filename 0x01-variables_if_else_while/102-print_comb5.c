@@ -5,7 +5,7 @@
 /**
  * main - prints two digit seperated by
  * comma.
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 
 int main(void)
