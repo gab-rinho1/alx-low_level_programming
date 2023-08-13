@@ -9,13 +9,15 @@ int main(void)
 
 {
 	int g, m, w;
+
 	for (g = '0'; g < '9'; g++)
+
 	{
 	for (m = g + 1; m <= '9'; m++)
 	{
 	for (w = m + 1; w <= '9';  w++)
 	{
-	if ((m != g) !=w)
+	if ((m != g) != w)
 	{
 	putchar(g);
 	putchar(m);
