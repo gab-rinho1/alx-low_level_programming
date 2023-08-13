@@ -5,7 +5,7 @@
 /**
  * main - prints two digit seperated by
  * comma.
- * Return: (Success)
+ * Return: Always 0  (Success)
  */
 
 int main(void)
@@ -28,6 +28,7 @@ int main(void)
 	putchar(' ');
 	}
 	}
+
 	putchar('\n');
 	return ('0');
 }
