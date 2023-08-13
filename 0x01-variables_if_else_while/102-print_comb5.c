@@ -10,33 +10,21 @@ int main(void)
 
 {
 	int g, w;
-	int a, b, c, d;
 
-	for (g = '0'; g <= 99; g++)
+	for (g = 0; g <= 98; g++)
 	{
-		a = g / 10;
-		b = g % 10;
-
-		for (w = '0'; w <= 99; w++)
-		{
-			c = w / 10;
-			d = w % 10;
-			if (a < c || (a == c && b < d))
-			{
-				putchar(a + '0');
-				putchar(b + '0');
-				putchar(' ');
-				putchar(c + '0');
-				putchar(d + '0');
-
-				if (a != '9' && b != 8)
-				{
-					putchar(',');
-					putchar(' ');
-
-				}
-			}
-		}
+	for (w = g + 1; w <= 99; w++)
+	{
+	putchar((g / 10) + '0');
+	putchar((g % 10) + '0');
+	putchar(' ');
+	putchar((w / 10) + '0');
+	putchar((w % 10) + '0');
+	if (g == 98 && w == 99)
+	continue;
+	putchar(',');
+	putchar(' ');
+	}
 	}
 	putchar('\n');
 	return ('0');
