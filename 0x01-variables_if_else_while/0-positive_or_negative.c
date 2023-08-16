@@ -32,5 +32,7 @@ int main(void)
 	{
 	printf("%d is negative\n", n);
 	}
+
+	putchar('\n');
 	return (0);
 }
