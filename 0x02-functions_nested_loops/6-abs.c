@@ -4,7 +4,7 @@
 
 /**
  * maint - Check the code
- *
+ * @c: The number of computed.
  * Return: Always 0.
  *
  */
