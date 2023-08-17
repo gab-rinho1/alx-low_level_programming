@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the sum of even Fabonacci numbers
- * less than 4000000
+ * less than 4000000.
  * Return: Nothing!
  */
 
