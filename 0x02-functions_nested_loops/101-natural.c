@@ -18,6 +18,7 @@ int main(void)
 	}
 	i++;
 	}
+
 	printf("%d", z);
 	return (0);
 
