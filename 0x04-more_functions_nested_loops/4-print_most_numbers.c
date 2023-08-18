@@ -6,8 +6,7 @@
  * Return: none
  */
 
-void print_most_numbrs(void)
-
+void print_most_numbers(void)
 {
 	int i;
 
