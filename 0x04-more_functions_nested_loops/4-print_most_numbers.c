@@ -2,11 +2,12 @@
 
 /**
  * print_most_numbers - prints numbers for 0 through 9 apart
- * apart from 2 and 4.
+ * apart from 2 and 4
  * Return: none
  */
 
 void print_most_numbers(void)
+
 {
 	int i;
 
