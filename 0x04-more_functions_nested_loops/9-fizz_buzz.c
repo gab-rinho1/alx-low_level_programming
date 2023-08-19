@@ -6,9 +6,7 @@
  * and Buzz for 5s
  * Return: 0
  */
-
 int main(void)
-
 {
 	int i;
 
