@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_array - Prints n element of an array
- * @a: array of integer
- * @n: number of element of the array
- * Return: none
+ * print_array - Prints n element of an array of integer
+ * @a: Array of integers
+ * @n: Number of element of the array to be printed
+ * Return: void
  */
 
 void print_array(int *a, int n)
