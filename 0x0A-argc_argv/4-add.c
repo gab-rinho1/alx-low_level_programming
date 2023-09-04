@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
 #include <stdlib.h>
 
 /**
- * main - adds positive numbers
+ * main - entry point
  * @argc: argument count
  * @argv: argument vector
  * Return: 0
@@ -12,28 +13,27 @@
 int main(int argc, char *argv[])
 
 {
-	int i, j;
-	int sum = 0;
+	int sum, i, j;
 
-	if (argc == 1)
-		printf("%d\n", 0);
-	else
+	 sum = 0;
+	if (argc != 1)
 	{
 
-		for (i = 0; i < argc; i++)
+
+		for (i = 1; i < argc; i++)
 		{
-			for (j = 0; argv[i][j] != '\0'; j++)
+			for (j = 0; j < (int)strlen(argv[i]); j++)
 			{
 				if (!(isdigit(argv[i][j])))
 				{
 					printf("Erro\n");
 					return (1);
+				}
 
 			}
-			sum = sum + atoi(argv[i]);
+			sum += atoi(argv[i]);
 			}
 		}
 		printf("%d\n", sum);
-	}
-	return (0);
+		return (0);
 }
