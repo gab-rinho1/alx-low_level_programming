@@ -7,7 +7,9 @@
  * main - entry point
  * @argc: argument count
  * @argv: argument vector
- * Return: 0
+ *
+ * Description:-
+ * Return:-
  */
 
 int main(int argc, char *argv[])
@@ -16,6 +18,7 @@ int main(int argc, char *argv[])
 	int sum, i, j;
 
 	 sum = 0;
+
 	if (argc != 1)
 	{
 	for (i = 1; i < argc; i++)
