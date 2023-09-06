@@ -4,11 +4,10 @@
  * free_grid - free memory previously allocated
  * @grid: pointer to the array
  * @height: number of rows
- * Return: none
+ * Return: void
  */
 
 void free_grid(int **grid, int height)
-
 {
 	int i;
 
